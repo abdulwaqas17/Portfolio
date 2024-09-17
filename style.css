@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+h1,h2{
+
+    font-family: "Poppins", system-ui;
+
+}
+
+p{
+
+    font-family: "Roboto", system-ui;
+
+}
+
+/* root classes */
+:root{
+
+    --light:aqua;
+}
+
+/* utility classes */
+.flex{
+
+    display: flex;
+
+}
+
+.container{
+
+    margin-inline: 130px;
+
+}
+
+.color{
+
+    color: var(--light);
+}
+
+
+
+/* styling for home is here  */
+.home{
+
+    background-color: rgb(1, 2, 31);
+    height: 100vh;
+}
+
+/* styling for home-content is here  */
+.home-content{
+
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    gap: 70px;
+
+}
+
+/* styling for home-left is here  */
+.home-left h1{
+
+    margin-block: 10px;
+    font-size: 2rem;
+    
+}
+
+.home-left h3{
+
+    margin-block: 10px;
+    font-size: 1.5rem;
+    
+}
+
+.home-left p{
+
+    margin-block: 20px;
+    line-height: 1.6rem;
+    font-size: 0.95rem;
+    color: gainsboro;
+
+}
+
+/* styling for homeLinksBar is here  */
+.homeLinksBar{
+
+    gap: 30px;
+    align-items: center;
+
+
+}
+
+.social-icons{
+
+    gap: 20px;
+}
+
+.social-icons a{
+
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 2px solid var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--light);
+    transition: 0.3s;
+
+}
+
+.social-icons a i{
+
+    color: var(--light);
+    transition: 0.3s;
+
+}
+
+
+.social-icons a:hover i{
+
+    color: #000;
+
+}
+
+.social-icons a:hover{
+
+    background-color: var(--light);
+    
+}
+
+.home-button{
+
+    background-color: var(--light);
+    color: black;
+    border-radius: 25px;
+    padding: 12px 17px;
+    box-shadow: 0px 0px 10px 0px var(--light);
+    border: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+
+.home-button:hover{
+
+    box-shadow: none;
+
+}
+
+
+/* styling for home-right is here  */
+.home-right .img-box{
+
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid var(--light);
+    box-shadow: 0px 0px 30px 0px var(--light) ;
+    transition: 0.5s;
+
+}
+
+.home-right .img-box:hover{
+
+    box-shadow: 0px 0px 50px 5px var(--light);
+
+}
+
+/* styling for bar is here  */
+.bar{
+
+    padding: 20px 30px;
+    border-radius: 30px;
+    justify-content: space-around;
+    background-color: rgba(58, 57, 57, 0.288);
+    /* backdrop-filter:blur(50px); */
+    gap: 20px;
+    border: 1px solid var(--light);
+    width: 300px;
+    margin:auto;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.bar a i:hover{
+
+    color: var(--light);
+    transition: 0.3s;
+}
